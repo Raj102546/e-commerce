@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="animation.css" />
+    <link rel="stylesheet" href="main-style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>E-commerce</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h1>Brand Name</h1>
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li>Categories <i class="fa-solid fa-angle-down"></i></li>
+            <li>Collections <i class="fa-solid fa-angle-down"></i></li>
+            <li>About Us <i class="fa-solid fa-angle-down"></i></li>
+            <li>Contact Us <i class="fa-solid fa-angle-down"></i></li>
+          </ul>
+        </div>
+        <div class="nav-controls">
+          <ul>
+            <li>
+              <input
+                type="text"
+                class="hide search-bar"
+                placeholder="Search products..."
+              /><i class="fa-solid fa-magnifying-glass"></i>
+            </li>
+            <li>
+              <button class="action-btn">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </button>
+            </li>
+            <li>
+              <button class="action-btn">
+                <i class="fa-solid fa-user"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="head-menu">
+        <div class="tag-line bottom">Elevate Your Look, Effortlessly.</div>
+        <img
+          class="menu-imgs top-left"
+          src="imgs/T-Shirt-PNG-File.png"
+          alt="img"
+        />
+        <img
+          class="menu-imgs bottom-right"
+          src="imgs/Rolex-Watch-PNG-Free-Image.png"
+          alt="img"
+        />
+        <img
+          class="menu-imgs bottom-left"
+          src="imgs/Sneakers-PNG-Download-Image.png"
+          alt="img"
+        />
+        <button class="shop-btn" onclick="scrollToMain()">Shop Now</button>
+      </div>
+    </header>
+    <main class="main-slide">
+      <h2 class="small-titles">Top Products ></h2>
+      <div id="hero-products"></div>
+
+      <hr>
+
+      <h2 class="small-titles">Categories ></h2>
+      <div class="category-cards">
+        <div class="men"><a href="#"><img src="imgs/men-clothes-png-men-polo-shirt-png-image-2012.png" alt="img"></a><p>Men's</p></div>
+        <div class="women"><a href="#"><img src="imgs/PngItem_2841340.png" alt="img"></a><p>Women's</p></div>
+        <div class="kids"><a href="#"><img src="imgs/Kids-Wear-PNG.png" alt="img"></a><p>Kids'</p></div>
+        <div class="accessories"><a href="#"><img src="imgs/Watch-PNG-Picture.png" alt="img"></a><p>Accessories</p></div>
+      </div>
+      
+      <hr>
+
+      <h2 class="small-titles">Special Offers or Discounts ></h2>
+      <div class="discount-items">
+
+      </div>
+    </main>
+  </body>
+  <script src="app.js"></script>
+  <script src=""></script>
+</html>
